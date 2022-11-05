@@ -1,1 +1,7 @@
+- name: Install Cron Job (Ansible Pull)
+  cron:
+    user: ansible
+    name: "Ansible Provisioning" 
+    minute: "*/10"
+    job: "/usr/bin/ansible-pull -o -U https://github.com/Geo-GmZ/ansible-pull.git > /home/geo/Ansible/pull.log"
 
