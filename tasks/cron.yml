@@ -3,5 +3,5 @@
     user: ansible
     name: "Ansible Provisioning" 
     minute: "*/10"
-    job: "/usr/bin/ansible-pull -o -U https://github.com/Geo-GmZ/workstation-setup-playbook.git > /home/geo/Ansible/pull.log"
+    job: "/usr/bin/ansible-pull -o -U https://github.com/Geo-GmZ/workstation-setup-playbook.git > /home/ansible/pull.log"
 
