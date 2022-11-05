@@ -40,7 +40,10 @@
       - google-chrome-stable
       - snapd
       - gnome-tweaks
-      
+      - wireguard
+      - wine64
+      - playonlinux
+      - protontricks
       
       
       
