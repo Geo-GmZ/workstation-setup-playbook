@@ -36,7 +36,10 @@
       - obs-studio
       - steam
       - youtube-dl
-      
+      - ubuntu-restricted-extras
+      - google-chrome-stable
+      - snapd
+      - gnome-tweaks
       
       
       
