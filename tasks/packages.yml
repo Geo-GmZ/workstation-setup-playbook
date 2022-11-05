@@ -24,8 +24,10 @@
       - curl
       - qemu-kvm 
       - libvirt-daemon-system 
-      - libvirt-clients bridge-utils 
-      - virtinst virt-manager
+      - libvirt-clients 
+      - bridge-utils 
+      - virtinst 
+      - virt-manager
       - wireshark
       - discord
       - slack-desktop
