@@ -67,5 +67,5 @@
       name:
         - coinmon
       global: yes
-      state: present
+      state: absent
       
