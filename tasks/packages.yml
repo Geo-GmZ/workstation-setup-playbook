@@ -50,7 +50,7 @@
       - telegram-desktop
       - scrcpy
       - neofetch
-      
+      - npm
       
   - name: Installing Snap Packages.
     snap:
