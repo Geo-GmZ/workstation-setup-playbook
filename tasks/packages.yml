@@ -51,6 +51,13 @@
       - scrcpy
       
       
+  - name: Installing Snap Packages.
+    snap:
+      name:
+        - lxd
+        - spotify
+        - cura-slicer
+      state: present
       
       
       
