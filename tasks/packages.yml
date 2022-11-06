@@ -59,7 +59,6 @@
         - spotify
         - cura-slicer
         - tastyworks-unofficial
-        - zoom-client
       state: present
       
   - name: Installing NodeJS Apps.
