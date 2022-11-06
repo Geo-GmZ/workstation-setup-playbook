@@ -17,7 +17,7 @@
   - name: Set INPUT policy to DROP all.
     iptables: 
       chain: INPUT
-      jump: DROP
+      policy: DROP
     become: yes
     
     
