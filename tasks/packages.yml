@@ -50,7 +50,7 @@
         - neofetch
         - npm
       state: present
-      become: yes
+
       
   - name: Installing Snap Packages.
     snap:
