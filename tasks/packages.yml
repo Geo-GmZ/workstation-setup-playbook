@@ -57,6 +57,7 @@
         - lxd
         - spotify
         - cura-slicer
+        - tastyworks-unofficial
       state: present
       
       
