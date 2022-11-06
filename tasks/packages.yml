@@ -1,56 +1,55 @@
 
   - name: Install APT Packages.
     apt: 
-      name: "{{ item }}"
+      name:
+        - htop
+        - iperf
+        - iperf3
+        - netcat
+        - net-tools
+        - psmisc
+        - nmap
+        - speedometer
+        - iptraf
+        - arping
+        - iftop
+        - tcpdump
+        - dnsutils
+        - vim 
+        - awscli
+        - jq
+        - lnav
+        - curl
+        - qemu-kvm 
+        - libvirt-daemon-system 
+        - libvirt-clients 
+        - bridge-utils 
+        - virtinst 
+        - virt-manager
+        - wireshark
+        - discord
+        - slack-desktop
+        - vlc
+        - conky
+        - obs-studio
+        - steam
+        - youtube-dl
+        - ubuntu-restricted-extras
+        - google-chrome-stable
+        - snapd
+        - gnome-tweaks
+        - wireguard
+        - wine64
+        - playonlinux
+        - protontricks
+        - barrier
+        - audacity
+        - handbrake
+        - telegram-desktop
+        - scrcpy
+        - neofetch
+        - npm
       state: present
-    with_items:  
-      - htop
-      - iperf
-      - iperf3
-      - netcat
-      - net-tools
-      - psmisc
-      - nmap
-      - speedometer
-      - iptraf
-      - arping
-      - iftop
-      - tcpdump
-      - dnsutils
-      - vim 
-      - awscli
-      - jq
-      - lnav
-      - curl
-      - qemu-kvm 
-      - libvirt-daemon-system 
-      - libvirt-clients 
-      - bridge-utils 
-      - virtinst 
-      - virt-manager
-      - wireshark
-      - discord
-      - slack-desktop
-      - vlc
-      - conky
-      - obs-studio
-      - steam
-      - youtube-dl
-      - ubuntu-restricted-extras
-      - google-chrome-stable
-      - snapd
-      - gnome-tweaks
-      - wireguard
-      - wine64
-      - playonlinux
-      - protontricks
-      - barrier
-      - audacity
-      - handbrake
-      - telegram-desktop
-      - scrcpy
-      - neofetch
-      - npm
       
   - name: Installing Snap Packages.
     snap:
