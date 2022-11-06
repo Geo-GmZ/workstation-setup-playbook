@@ -61,5 +61,9 @@
         - tastyworks-unofficial
       state: present
       
-      
+  - name: Installing NodeJS Apps.
+    npm:
+      name:
+        - coinmon
+      state: present
       
