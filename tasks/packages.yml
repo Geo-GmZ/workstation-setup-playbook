@@ -1,5 +1,5 @@
 
-  - name: Install Packages.
+  - name: Install APT Packages.
     apt: 
       name: "{{ item }}"
       state: present
@@ -59,6 +59,7 @@
         - spotify
         - cura-slicer
         - tastyworks-unofficial
+        - zoom-client
       state: present
       
   - name: Installing NodeJS Apps.
