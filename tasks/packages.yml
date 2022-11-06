@@ -59,13 +59,5 @@
         - spotify
         - cura-slicer
         - tastyworks-unofficial
-      state: present
-      
-  - name: Installing NodeJS Apps.
-    npm:
-      name:
-        - coinmon
-      global: yes
-      state: absent
-      become: yes
-      
+      state: present    
+ 
