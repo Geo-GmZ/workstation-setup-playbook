@@ -66,5 +66,6 @@
     npm:
       name:
         - coinmon
+      global: yes
       state: present
       
