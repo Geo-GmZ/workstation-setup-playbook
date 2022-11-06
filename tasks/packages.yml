@@ -60,6 +60,7 @@
         - tastyworks-unofficial
         - zoom-client
       state: present
+      become: yes
       
   - name: Installing NodeJS Apps.
     npm:
@@ -67,4 +68,5 @@
         - coinmon
       global: yes
       state: absent
+      become: yes
       
