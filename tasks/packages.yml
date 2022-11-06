@@ -5,7 +5,6 @@
       state: present
     with_items:  
       - htop
-      - telegram-desktop
       - iperf
       - iperf3
       - netcat
@@ -47,7 +46,9 @@
       - protontricks
       - barrier
       - audacity
-      
+      - handbrake
+      - telegram-desktop
+      - scrcpy
       
       
       
