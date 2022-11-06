@@ -49,6 +49,7 @@
       - handbrake
       - telegram-desktop
       - scrcpy
+      - neofetch
       
       
   - name: Installing Snap Packages.
