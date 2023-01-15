@@ -13,4 +13,5 @@
     - include: tasks/users.yml
     - include: tasks/firewall.yml
     - include: tasks/cron.yml
+    - include: tasks/ssh-setup
 
