@@ -1,62 +1,62 @@
 # This task installs a list of APT packages
-- name: Install APT Packages
-  apt: 
-    name:
-      - htop
-      - iperf
-      - iperf3
-      - netcat
-      - net-tools
-      - psmisc
-      - nmap
-      - speedometer
-      - iptraf
-      - arping
-      - iftop
-      - tcpdump
-      - dnsutils
-      - vim 
-      - awscli
-      - jq
-      - lnav
-      - curl
-      - qemu-kvm 
-      - libvirt-daemon-system 
-      - libvirt-clients 
-      - bridge-utils 
-      - virtinst 
-      - virt-manager
-      - wireshark
-      - discord
-      - slack-desktop
-      - vlc
-      - conky
-      - obs-studio
-      - steam
-      - youtube-dl
-      - ubuntu-restricted-extras
-      - google-chrome-stable
-      - snapd
-      - gnome-tweaks
-      - wireguard
-      - wine64
-      - playonlinux
-      - protontricks
-      - barrier
-      - audacity
-      - handbrake
-      - telegram-desktop
-      - scrcpy
-      - neofetch
-      - npm
-    state: present
+  - name: Install APT Packages
+    apt: 
+      name:
+        - htop
+        - iperf
+        - iperf3
+        - netcat
+        - net-tools
+        - psmisc
+        - nmap
+        - speedometer
+        - iptraf
+        - arping
+        - iftop
+        - tcpdump
+        - dnsutils
+        - vim 
+        - awscli
+        - jq
+        - lnav
+        - curl
+        - qemu-kvm 
+        - libvirt-daemon-system 
+        - libvirt-clients 
+        - bridge-utils 
+        - virtinst 
+        - virt-manager
+        - wireshark
+        - discord
+        - slack-desktop
+        - vlc
+        - conky
+        - obs-studio
+        - steam
+        - youtube-dl
+        - ubuntu-restricted-extras
+        - google-chrome-stable
+        - snapd
+        - gnome-tweaks
+        - wireguard
+        - wine64
+        - playonlinux
+        - protontricks
+        - barrier
+        - audacity
+        - handbrake
+        - telegram-desktop
+        - scrcpy
+        - neofetch
+        - npm
+      state: present
 
 # This task installs a list of Snap packages
-- name: Installing Snap Packages
-  snap:
-    name:
-      - lxd
-      - spotify
-      - cura-slicer
-      - tastyworks-unofficial
-    state: present
+  - name: Installing Snap Packages
+    snap:
+      name:
+        - lxd
+        - spotify
+        - cura-slicer
+        - tastyworks-unofficial
+      state: present
