@@ -5,6 +5,7 @@
       line: 'Port {{ new_ssh_port }}'
     vars:
       new_ssh_port: 2222
+      
   - name: Restart SSH service
     service:
       name: ssh
