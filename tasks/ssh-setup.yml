@@ -1,0 +1,15 @@
+---
+- hosts: all
+  become: true
+  tasks:
+  - name: Change SSH port
+    lineinfile:
+      path: /etc/ssh/sshd_config
+      regexp: '^#?Port 22'
+      line: 'Port {{ new_ssh_port }}'
+    vars:
+      new_ssh_port: 2222
+  - name: Restart SSH service
+    service:
+      name: ssh
+      state: restarted
