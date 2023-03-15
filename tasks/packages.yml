@@ -27,7 +27,7 @@
         - virtinst 
         - virt-manager
         - wireshark
-        - discord
+#        - discord
         - slack-desktop
         - vlc
         - conky
