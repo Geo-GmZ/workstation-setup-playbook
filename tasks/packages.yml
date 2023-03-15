@@ -35,12 +35,12 @@
 #        - steam
         - youtube-dl
         - ubuntu-restricted-extras
-        - google-chrome-stable
+#        - google-chrome-stable
         - snapd
 #        - gnome-tweaks
         - wireguard
         - wine64
-        - playonlinux
+#        - playonlinux
         - protontricks
         - barrier
         - audacity
