@@ -32,12 +32,12 @@
         - vlc
         - conky
         - obs-studio
-        - steam
+#        - steam
         - youtube-dl
         - ubuntu-restricted-extras
         - google-chrome-stable
         - snapd
-        - gnome-tweaks
+#        - gnome-tweaks
         - wireguard
         - wine64
         - playonlinux
